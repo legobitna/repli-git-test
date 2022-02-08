@@ -1,0 +1,75 @@
+body{
+    font-family: var(--bs-body-font-family);
+    margin: 0;
+    display:contents
+    
+}
+
+
+.navbar{
+    padding: 8px 35px;
+}
+
+.btn-outline-success{
+    color: chocolate;
+    border-color: chocolate;
+}
+
+.btn-outline-success:hover{
+    color: white;
+    border-color: chocolate;
+    background-color: chocolate;
+}
+
+.me-2{
+    height: 40px;
+}
+
+.navbar-brand{
+    font-weight: 500;
+}
+
+
+
+.mainLetter{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+.card-title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    vertical-align: middle;
+}
+
+footer{
+    background: #19110b;
+    color: white;
+    font-size: 14px;
+}
+.footFont{
+    text-decoration: none;
+    color: white;
+    padding: 12px 16px;
+}
+
+.footFont:hover{
+    color: white;
+}
+
+.f-1-letter{
+    border-bottom: 1px solid #392d23;
+    padding: 48px 0 48px 0;
+}
+
+.f-2-letter{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 0 48px 0;
+}
